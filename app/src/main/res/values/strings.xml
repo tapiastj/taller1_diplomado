@@ -7,4 +7,28 @@
     <string name="marca">Marca</string>
     <string name="cotizar">Cotizar</string>
     <string name="limpiar">Limpiar</string>
+
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clásico</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+
+    <array name="opcSexo">
+        <item>@string/hombre</item>
+        <item>@string/mujer</item>
+    </array>
+    <array name="opcTipo">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </array>
+    <array name="opcMarca">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </array>
+
+    <string name="error">Debe ingresar una cantidad</string>
 </resources>
