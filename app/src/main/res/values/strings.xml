@@ -31,4 +31,5 @@
     </array>
 
     <string name="error">Debe ingresar una cantidad</string>
+    <string name="error_dos">La cantidad debe ser superior a 0</string>
 </resources>

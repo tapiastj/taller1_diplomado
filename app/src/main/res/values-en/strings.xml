@@ -13,4 +13,5 @@
     <string name="clasico">Clasic</string>
     <string name="mujer">Woman</string>
     <string name="error">Must input amount</string>
+    <string name="error_dos">Amount must be upper than 0</string>
 </resources>

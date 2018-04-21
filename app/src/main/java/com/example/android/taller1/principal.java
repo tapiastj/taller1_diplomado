@@ -58,6 +58,12 @@ public class principal extends AppCompatActivity {
             return false;
         }
 
+        if (txtCantidad.getText().toString().equals("0")){
+            txtCantidad.setError(this.getResources().getString(R.string.error_dos));
+            txtCantidad.requestFocus();
+            return false;
+        }
+
         return true;
     }
 
