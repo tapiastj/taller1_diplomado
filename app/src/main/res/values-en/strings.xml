@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cotizador</string>
+    <string name="titulo">QOUTING</string>
+    <string name="sexo">Sex</string>
+    <string name="tipo">Type</string>
+    <string name="cantidad">Amount</string>
+    <string name="marca">Brand</string>
+    <string name="cotizar">Qoute</string>
+    <string name="limpiar">Clear</string>
+    <string name="hombre">Man</string>
+    <string name="zapatilla">Sneaker</string>
+    <string name="clasico">Clasic</string>
+    <string name="mujer">Woman</string>
+    <string name="error">Must input amount</string>
+</resources>

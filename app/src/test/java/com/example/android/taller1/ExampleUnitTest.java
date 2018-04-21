@@ -1,5 +1,7 @@
 package com.example.android.taller1;
 
+import com.example.android.taller1.core.Calculate;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -11,7 +13,8 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+    public void cotizarDosZapatillasParaHombreMarcaPuma(){
+        int sexo = 0, tipo = 0, marca = 2, cantidad = 2;
+        assertEquals(260000, Calculate.cotizar(sexo,tipo,marca,cantidad),0);
     }
 }
