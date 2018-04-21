@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">taller1</string>
+    <string name="titulo">COTIZADOR</string>
+    <string name="sexo">Sexo</string>
+    <string name="tipo">Tipo</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="marca">Marca</string>
+    <string name="cotizar">Cotizar</string>
+    <string name="limpiar">Limpiar</string>
 </resources>
