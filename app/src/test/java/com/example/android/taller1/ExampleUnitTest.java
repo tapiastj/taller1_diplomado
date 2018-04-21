@@ -17,4 +17,22 @@ public class ExampleUnitTest {
         int sexo = 0, tipo = 0, marca = 2, cantidad = 2;
         assertEquals(260000, Calculate.cotizar(sexo,tipo,marca,cantidad),0);
     }
+
+    @Test
+    public void cotizarTresZapatosClasicosParaHombreMarcaNike(){
+        int sexo = 0, tipo = 1, marca = 0, cantidad = 3;
+        assertEquals(150000, Calculate.cotizar(sexo,tipo,marca,cantidad),0);
+    }
+
+    @Test
+    public void cotizarCuatroZapatillasParaMujerMarcaAdidas(){
+        int sexo = 1, tipo = 0, marca = 1, cantidad = 4;
+        assertEquals(520000, Calculate.cotizar(sexo,tipo,marca,cantidad),0);
+    }
+
+    @Test
+    public void cotizarCincoZapatosClasicosParaMujerMarcaPuma(){
+        int sexo = 1, tipo = 1, marca = 2, cantidad = 5;
+        assertEquals(600000, Calculate.cotizar(sexo,tipo,marca,cantidad),0);
+    }
 }
